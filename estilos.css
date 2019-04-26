@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: linear-gradient(to right, red , violet);
+
+}
+
+header{
+	background-image: linear-gradient(to right, red , yellow);
+	display: flex;
+	border-bottom: 1px ridge black;
+	
+}
+
+#menunavegacion{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	
+	padding-top: 50px;
+	width: 70%;
+	border-radius: 2px;
+	
+}
+#imagencabecera{
+	display: flex;
+	justify-content: center;
+	
+	width: 30%;
+	padding: 10px;
+
+}
+.slider{
+	
+	height: auto;
+
+	
+
+	
+
+	
+}
+#fotos{
+	margin:0 auto;
+	display: flex;
+	height: auto;
+	width: 400px;
+    overflow-x: scroll;
+
+
+}
+img{
+	max-width: 100%;
+    height: auto;
+   
+    border:2px solid white;
+}
+.productos{
+
+	border-bottom: 1px ridge black;
+	padding: 10px;
+}
+.productos1{
+	
+	border-bottom: 1px ridge black;
+	padding: 10px;
+}
+.fotoflotante{
+	float: left;
+	margin: 10px;
+}
+footer{
+	background-image: linear-gradient(to top, red , yellow);
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+h2{
+	margin:0 ;
+	text-align: center;
+
+}
+h3{
+	margin:0;
+	text-align: center;
+}
